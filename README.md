@@ -6,7 +6,7 @@ In this project, a novel DTW based method for classification of variable-length 
 
 ## Usage
 
-Download the datasets from [here](https://drive.google.com/drive/folders/1n-OZ9Eq8Nf0-oi_6xThwzkbfUyKgwN9a?usp=sharing), put the in a folder named 'Dataset' and then follow these steps.
+Download the datasets from [here](https://drive.google.com/drive/folders/1n-OZ9Eq8Nf0-oi_6xThwzkbfUyKgwN9a?usp=sharing), put them in a folder named 'Dataset' and then follow these steps.
 
 - Install required packages by running "pip install -r requirements.txt".
 
