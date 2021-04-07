@@ -7,7 +7,7 @@ class Action_recognition_class:
 
     def read_tst():
 
-        mat = scipy.io.loadmat('TST.mat')
+        mat = scipy.io.loadmat('Datasets/TST.mat')
 
         my_numpy = mat['complete_skeleton']
 
@@ -43,7 +43,7 @@ class Action_recognition_class:
     def read_UTkinect_aligned():
 
         import scipy.io
-        mat = scipy.io.loadmat('all_aligned_joints_gathered_UTKinect.mat')
+        mat = scipy.io.loadmat('Datasets/all_aligned_joints_gathered_UTKinect.mat')
         my_numpy = mat['all_aligned_joints_gathered']
 
         all_actions1 = []
@@ -78,7 +78,7 @@ class Action_recognition_class:
     def read_UTkinect():
         
         import scipy.io
-        mat = scipy.io.loadmat('UTKinect.mat')
+        mat = scipy.io.loadmat('Datasets/UTKinect.mat')
         my_numpy = mat['complete_skeleton']
 
         all_actions1 = []
@@ -114,7 +114,7 @@ class Action_recognition_class:
     def read_UCFKinect_aligned():
         
         import scipy.io
-        mat = scipy.io.loadmat('all_aligned_joints_gathered_UCFKinect.mat')
+        mat = scipy.io.loadmat('Datasets/all_aligned_joints_gathered_UCFKinect.mat')
         my_numpy = mat['all_aligned_joints_gathered']
 
         all_actions1 = []
